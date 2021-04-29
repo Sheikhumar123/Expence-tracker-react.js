@@ -1,0 +1,13 @@
+.historyContainer{
+    margin: 30px;
+}
+.historyContainer h3{
+    margin: 10px;
+}
+.historyContainer hr{
+    border-color: rgba(128, 128, 128, 0.185);
+}
+.historyBox{
+    display: flex;
+    flex-direction: column-reverse;
+}

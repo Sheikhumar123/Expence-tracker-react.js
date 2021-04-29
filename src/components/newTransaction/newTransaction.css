@@ -1,0 +1,41 @@
+.newTranaction{
+    margin: 30px;
+}
+.newTranaction h3{
+    margin: 10px;
+}
+.newTranaction hr{
+    border-color: rgba(128, 128, 128, 0.185);
+}
+.newTranaction form{
+    display: flex;
+    margin-top: 20px;
+    text-align: left;
+    flex-direction: column;
+}
+.newTranaction form label{
+    font-size: 1em;
+    font-weight: bolder;
+}
+.newTranaction form input{
+    width: 100%;
+    padding: 9px;
+    font-size: 1em;
+    margin: 10px 0px;
+    border-radius: 3px;
+    border:1px solid #ccc;
+}
+.newTranaction form button{
+    padding: 9px;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 3px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    border:1px solid #ccc;
+    background-color: teal;
+}
+.newTranaction form button:hover{
+    background-color: rgba(0, 128, 128, 0.767);
+}
